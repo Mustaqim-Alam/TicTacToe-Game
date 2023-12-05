@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <h2>TicTacToe.com</h2>
+      <ul>
+        <li>Menu</li>
+        <li>|</li>
+        <li>Premium</li>
+      </ul>
+    </nav>
+    <div class="gameContainer">
+      <div class="container">
+        <div class="box bl-0 bt-0"><span class="boxText"></span></div>
+        <div class="box bt-0"><span class="boxText"></span></div>
+        <div class="box bt-0 br-0"><span class="boxText"></span></div>
+        <div class="box bl-0"><span class="boxText"></span></div>
+        <div class="box"><span class="boxText"></span></div>
+        <div class="box br-0"><span class="boxText"></span></div>
+        <div class="box bl-0 bb-0"><span class="boxText"></span></div>
+        <div class="box bb-0"><span class="boxText"></span></div>
+        <div class="box br-0 bb-0"><span class="boxText"></span></div>
+      </div>
+
+      <div class="gameInfo">
+        <h2 id="wlcmLine">Welcome to TicTacToe</h2>
+        <span class="turn">Turn for: X </span>
+        <span><button id="button" role="button">Reset</button></span>
+        <img class="imgBox" src="./excited.gif" alt="" />
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
